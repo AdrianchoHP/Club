@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia De Fútbol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+	<style>
+	    body {
+	        background-color: #ebebebcc;
+	    }
+	    h1 {
+	        text-align: center;
+	        margin-top: 50px;
+	    }
+	    .btn-custom {
+	        background: none;
+	        border: none;
+	        padding: 0;
+	        margin: 0;
+	        cursor: pointer;
+	        text-align: center;
+	        color: #333;
+	    }
+	    .btn-custom img {
+	        width: 170px;
+	        height: auto;
+	        display: block;
+	        margin: 0 auto;
+	    }
+	    .header {
+	        display: flex;
+	        align-items: center;
+	        justify-content: center;
+	        margin-bottom: 20px;
+	    }
+	    .header img {
+	        width: 60px;
+	        height: auto;
+	        margin-right: 10px;
+	        border-radius: 7%;
+	    }
+	    .navbar-brand {
+	        display: flex;
+	        align-items: center;
+	    }
+	    .btn-lg {
+	        font-size: 1.25rem;
+	        padding: .75rem 1.25rem;
+	        border-radius: .3rem;
+	    }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+	    <div class="container d-flex justify-content-center align-items-center">
+	        <a class="navbar-brand">
+	            <span class="fs-3 text-white fw-bold">Academia De Fútbol</span>
+	        </a>
+	    </div>
+	</nav>
+	
+    <div class="container p-4">
+        <center>
+            <h2 class="section__title">Academia De Fútbol</h2>
+        </center><br><br>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="p-3">
+                <a href="/verClub" class="btn btn-primary btn-lg">Ver Club</a>
+            </div>
+            <div class="p-3">
+                <a href="/verAsociacion" class="btn btn-primary btn-lg">Ver Asociación</a>
+            </div>
+            <div class="p-3">
+                <a href="/verCompeticion" class="btn btn-primary btn-lg">Ver Competición</a>
+            </div>
+            <div class="p-3">
+                <a href="/verEntrenador" class="btn btn-primary btn-lg">Ver Entrenador</a>
+            </div>
+            <div class="p-3">
+                <a href="/verJugador" class="btn btn-primary btn-lg">Ver Jugador</a>
+            </div>
+        </div>
+    </div>
+	
+	<footer class="footer bg-dark text-white fixed-bottom">
+	    <div class="container">
+	        <p class="text-center mb-0 py-2">Adrian Farid Hernandez Prince</p>
+	    </div>
+	</footer>
+		
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
